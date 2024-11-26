@@ -1,0 +1,42 @@
+*{ 
+    margin:0%;
+    padding: 0%;
+      
+}
+.firstnav{
+   display: flex;
+   justify-content: center; 
+   justify-content: space-around;
+   padding: 6px;
+   color: white;
+   background-color: rgb(42,42,68);
+
+}
+.firstnav.firstleft{
+    display: flex;
+    margin-top: 11px;
+}
+.firstleft img{
+    width: 22%;
+}
+.firstnav.firstright{
+    display: flex;margin-top: 11px;
+
+
+}
+.firstright p{
+    margin-inline:22px ;
+    font-size: 22px;
+}
+.firstright button{
+    margin-inline:22px ;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+
+}.firstright i{
+    margin-inline:22px ;
+    width: 80px;
+
+}
